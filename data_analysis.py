@@ -49,7 +49,7 @@ def check_zone(t_zon):
     print(t_zon,'ok')
     return [gong,gshi,gyi,ger,gsan,gpt,si,sshi,syi,ser,ssan,spt]
 
-if __name__=='__main__':
+if __name__=='__main__':        #对比所有区域幼儿园等级一级数量，并且画图
 #def hhaa():
     all_zone=['普陀','徐汇','浦东','长宁','黄浦','青浦','杨浦','崇明','静安','松江','闵行','奉贤','金山']
     all_zone_en=['PuTuo','XuHui','PuDong','ChangNing','HuangPu','QingPu','YangPu','ChongMing',
@@ -98,5 +98,5 @@ if __name__=='__main__':
 
     plt.show()
 
-#if __name__=='__main__':
+#if __name__=='__main__':       #单独输出一个区域各等级幼儿园数量
     #print(check_zone('浦东'))
