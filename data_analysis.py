@@ -49,8 +49,8 @@ def check_zone(t_zon):
     print(t_zon,'ok')
     return [gong,gshi,gyi,ger,gsan,gpt,si,sshi,syi,ser,ssan,spt]
 
-#if __name__=='__main__':
-def hhaa():
+if __name__=='__main__':
+#def hhaa():
     all_zone=['普陀','徐汇','浦东','长宁','黄浦','青浦','杨浦','崇明','静安','松江','闵行','奉贤','金山']
     all_zone_en=['PuTuo','XuHui','PuDong','ChangNing','HuangPu','QingPu','YangPu','ChongMing',
                  'JingAn','SongJiang','MinHang','FengXian','JinShan']
@@ -98,5 +98,5 @@ def hhaa():
 
     plt.show()
 
-if __name__=='__main__':
-    print(check_zone('浦东'))
+#if __name__=='__main__':
+    #print(check_zone('浦东'))
